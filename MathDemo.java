@@ -29,6 +29,14 @@ public class MathDemo {
 	}
 
 	public void generateLottoNumber() {
+		// generates 7 random numbers from 1 to 59 and returns them as a lotto number
+		int[] lottoNumber;
+		int luckyDip;
+		int i;
+		for (i = 1; i <= 7; i++) {
+			luckyDip = (int) (Math.random() * 59) + 1;
+			System.out.println(luckyDip);
+		}
 
 	}
 
