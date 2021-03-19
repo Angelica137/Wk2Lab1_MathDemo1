@@ -43,6 +43,7 @@ public class MathDemo {
 	}
 
 	public void max(int oneIn, int twoIn, int threeIn) {
+		// returns the greatest value of three numbers
 		if (oneIn > twoIn && oneIn > threeIn) {
 			System.out.println(oneIn);
 		} else if (twoIn > oneIn && twoIn > threeIn) {
@@ -53,6 +54,15 @@ public class MathDemo {
 			System.out.println("there is no max");
 		}
 
+	}
+
+	public void bestOfThree() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 3 numbers: ");
+		int one = sc.nextInt();
+		int two = sc.nextInt();
+		int three = sc.nextInt();
+		max(one, two, three);
 	}
 
 }

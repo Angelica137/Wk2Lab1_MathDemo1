@@ -12,6 +12,8 @@ public class TestMathDemo1 {
 		m.max(1, 2, 3);
 		// test max 2 numebrs same
 		m.max(1, 2, 2);
+		// test .bestOfMax()
+		m.bestOfThree();
 
 	}
 
