@@ -8,6 +8,10 @@ public class TestMathDemo1 {
 		m.generateLottoNumber();
 		// test .max() same numbers
 		m.max(1, 1, 1);
+		// test .max() all different numbers
+		m.max(1, 2, 3);
+		// test max 2 numebrs same
+		m.max(1, 2, 2);
 
 	}
 
