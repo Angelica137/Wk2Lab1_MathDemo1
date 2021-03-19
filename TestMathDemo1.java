@@ -6,6 +6,8 @@ public class TestMathDemo1 {
 		// test generateLottNumber()
 		MathDemo m = new MathDemo();
 		m.generateLottoNumber();
+		// test .max() same numbers
+		m.max(1, 1, 1);
 
 	}
 

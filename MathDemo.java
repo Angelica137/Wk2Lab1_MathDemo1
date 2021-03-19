@@ -38,7 +38,20 @@ public class MathDemo {
 			lottoNumber[i] = luckyDip;
 			// System.out.println(lottoNumber[i]);
 		}
-		System.out.println("Your lotto number is: " + Arrays.toString(lottoNumber).replace("[", " ").replace("]", "."));
+		System.out.println("Your lotto numbers are: " + Arrays.toString(lottoNumber).replace("[", " ").replace("]", "."));
+
+	}
+
+	public void max(int oneIn, int twoIn, int threeIn) {
+		if (oneIn > twoIn && oneIn > threeIn) {
+			System.out.println(oneIn);
+		} else if (twoIn > oneIn && twoIn > threeIn) {
+			System.out.println(twoIn);
+		} else if (threeIn > oneIn && threeIn > twoIn) {
+			System.out.println(threeIn);
+		} else {
+			System.out.println("there is no max");
+		}
 
 	}
 
